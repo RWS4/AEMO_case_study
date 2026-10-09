@@ -15,7 +15,7 @@ AEMO publishes and distributes this information through a number of channels. On
 - Analysing the resulting models confirmed that there were no relations defined as inherited or nested models (pydantic) or as part of table arguments (sqlalchemy). The use of model systems resulted from using [SQLModel] to define the reverse engineering. The pydantic model representation and sql table attributes can be dynamically and easily decoupled.
 - Investigating AEMO resources unveiled that solutions to these problems would be more complicated than simply writing an addtional model layer. Attribute names are reused in different "packages" (collections of tables) which would prevent you from using the exsisting namespace to link table columns. See exert from "Electricity Data Model Report - 23/04/2026" below:
 
-!(AEMO_docs_example.png)
+![](AEMO_docs_example.png?raw=true)
 
 ## Conclusions
 
